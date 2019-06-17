@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "lib": ["es6", "es7", "es2017.object", "dom"],
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
